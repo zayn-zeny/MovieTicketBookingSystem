@@ -1,0 +1,33 @@
+/* Home Page Styles */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f8f8;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
